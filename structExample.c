@@ -30,7 +30,7 @@ int main()
 	sptr=&s[0];
 	int sum=0;
 	for(i=0;i<5;i++){
-		printf("name : %s,total score : %d \n",(sptr+i)->name,total(&s[i]));
+		printf("name : %s,college : %s,total score : %d \n",(sptr+i)->name,s[i].d1.college_name,total(&s[i]));
 	}
     return 0;
 }
